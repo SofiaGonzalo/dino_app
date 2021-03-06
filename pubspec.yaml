@@ -74,3 +74,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: DotGothic16
+      fonts:
+        - asset: assets/fonts/DotGothic16-Regular.ttf
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
