@@ -13,11 +13,12 @@ class SunBorder extends StatelessWidget{
     return Container(
       margin: EdgeInsets.only(
           top: topDistance + 3.0,
-          right: 3.0
+          left: 3.0
       ),
       child: Icon(
         Icons.wb_sunny_outlined,
         color: Color(0xFF04A777),
+        size: size,
       ),
     );
 

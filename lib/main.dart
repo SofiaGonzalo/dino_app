@@ -1,5 +1,7 @@
+import 'package:dino_app/sun.dart';
 import 'package:flutter/material.dart';
 import 'description place.dart';
+import 'review_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +22,12 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Scaffold(
-        body: descriptionPlace("Dino Land", 4, dummieText),
+        body: ListView(
+          children: [
+            descriptionPlace("Dino Land", 4, dummieText),
+            ReviewList(),
+          ],
+        )
       ),
     );
   }

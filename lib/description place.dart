@@ -16,6 +16,8 @@ class descriptionPlace extends StatelessWidget{ // StatelessWidget for static in
   @override
   Widget build(BuildContext context) {
 
+
+
     final namePlace = Container(
       margin: EdgeInsets.only(
         top: topDistance,
