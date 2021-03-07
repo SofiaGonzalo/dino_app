@@ -4,8 +4,9 @@ class Sun extends StatelessWidget{
 
   double topDistance;
   var size;  //dynamic value
+  var icon;
 
-  Sun([this.topDistance, this.size]);
+  Sun(this.icon, [this.topDistance, this.size]);
 
   @override
   Widget build(BuildContext context) {
@@ -16,11 +17,10 @@ class Sun extends StatelessWidget{
           left: 3.0
       ),
       child: Icon(
-          Icons.wb_sunny,
-          color: Color(0xFF04A777),
+          icon,
+          color: Color(0xFFFFC914),
           size: size,
       ),
-    );;
+    );
   }
-  
 }

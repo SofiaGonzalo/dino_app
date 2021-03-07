@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'sun.dart';
-import 'sun_border.dart';
 
 class Review extends StatelessWidget{
 
@@ -46,7 +45,7 @@ class Review extends StatelessWidget{
         style: TextStyle(
           fontFamily: "OpenSans",
           fontSize: 17,
-          color: Color(0xff2e282a)
+          color: Color(0xff2E282A)
         ),
       ),
     );
@@ -62,7 +61,7 @@ class Review extends StatelessWidget{
         style: TextStyle(
           fontFamily: "DotGothic16",
           fontSize: 14,
-          color: Color(0xff8d7c82)
+          color: Color(0xff7E8B75)
         ),
       ),
     );
@@ -75,13 +74,13 @@ class Review extends StatelessWidget{
         comment,
         textAlign: TextAlign.left,
         style: TextStyle(
-            fontFamily: "OpenSans",
-            fontSize: 14,
-            color: Color(0xff2e282a),
-            fontWeight: FontWeight.w900
+          fontFamily: "OpenSans",
+          fontSize: 14,
+          color: Color(0xff2E282A),
+          fontWeight: FontWeight.w900
+          ),
         ),
-      ),
-    );
+      );
 
     final userInfo = Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -90,11 +89,11 @@ class Review extends StatelessWidget{
         Row(
           children: [
             userDetails,
-            Sun(topDistance, size),
-            Sun(topDistance, size),
-            Sun(topDistance, size),
-            Sun(topDistance, size),
-            SunBorder(topDistance, size),
+            Sun(Icons.wb_sunny, topDistance, size),
+            Sun(Icons.wb_sunny, topDistance, size),
+            Sun(Icons.wb_sunny, topDistance, size),
+            Sun(Icons.wb_sunny, topDistance, size),
+            Sun(Icons.wb_sunny_outlined,topDistance, size),
           ],
         ),
         userComment,
