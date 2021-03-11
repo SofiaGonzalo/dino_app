@@ -14,8 +14,8 @@ class GradientBackground extends StatelessWidget{
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            Color(0xff17bebb),
             Color(0xff12918F),
+            Color(0xff17bebb),
           ],
           begin: FractionalOffset(0.0, 0.0),
           end: FractionalOffset(1.0, 1.0),
@@ -32,7 +32,7 @@ class GradientBackground extends StatelessWidget{
           fontWeight: FontWeight.bold
         ),
       ),
-      alignment: Alignment(0.5, 0.5),
+      alignment: Alignment(-0.6, -0.6),
     );
 
     return background;
