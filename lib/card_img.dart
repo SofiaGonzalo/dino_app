@@ -1,3 +1,4 @@
+import 'package:dino_app/like_button.dart';
 import 'package:flutter/material.dart';
 
 class CardImage extends StatelessWidget{
@@ -36,8 +37,10 @@ class CardImage extends StatelessWidget{
 
     // TODO: implement build
     return Stack(
+      alignment: Alignment(0.9,0.9),
       children: [
         card,
+        LikeButton()
       ],
     );
   }
