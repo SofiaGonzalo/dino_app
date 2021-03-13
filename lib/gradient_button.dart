@@ -14,7 +14,7 @@ class GradientButton extends StatelessWidget{
     return InkWell(
       onTap: (){
         Scaffold.of(context).showSnackBar(
-          SnackBar(content: Text("Click Here"))
+          SnackBar(content: Text("Wake up"))
         );
       },
       child: Container(

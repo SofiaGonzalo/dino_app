@@ -73,7 +73,7 @@ class descriptionPlace extends StatelessWidget{ // StatelessWidget for static in
       children: [
         titleStars,
         description,
-        GradientButton("Wake up")
+        GradientButton("Click Here")
       ],
     );
   }
