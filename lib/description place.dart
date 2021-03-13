@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'sun.dart';
+import 'gradient_button.dart';
 
 //create a new class
 
@@ -72,6 +73,7 @@ class descriptionPlace extends StatelessWidget{ // StatelessWidget for static in
       children: [
         titleStars,
         description,
+        GradientButton("Wake up")
       ],
     );
   }
