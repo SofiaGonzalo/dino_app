@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'app_cupertino.dart';
-import 'home.dart';
+import 'place/ui/screens/home.dart';
 
 void main() {
   runApp(MyApp());

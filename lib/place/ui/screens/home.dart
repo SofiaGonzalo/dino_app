@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'description place.dart';
-import 'review_list.dart';
-import 'gradient_background.dart';
-import 'card_img_list.dart';
+import '../widgets/description place.dart';
+import '../widgets/review_list.dart';
+import '../../../widgets/gradient_background.dart';
+import '../widgets/card_img_list.dart';
 
 class Home extends StatelessWidget{
 
