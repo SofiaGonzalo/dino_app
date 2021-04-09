@@ -31,7 +31,10 @@ class ProfilePlaceList extends StatelessWidget{
       ),
       child: Column(
         children: [
-          ProfilePlace(placeImg, place1)
+          ProfilePlace(place1Img, place1),
+          ProfilePlace(place2Img, place2),
+          ProfilePlace(place3Img, place3),
+          ProfilePlace(place4Img, place4),
         ],
       ),
     );

@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class GradientBackground extends StatelessWidget{
 
   String title = "Welcome";
+  double backgroundHeight;
 
-  GradientBackground(this.title);
+  GradientBackground(this.title, this.backgroundHeight);
 
   @override
   Widget build(BuildContext context) {
 
     final background = Container(
-      height: 350,
+      height: backgroundHeight,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
