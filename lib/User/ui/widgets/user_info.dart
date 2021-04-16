@@ -1,13 +1,12 @@
+import 'package:dino_app/User/model/User.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class UserInfo extends StatelessWidget {
 
-  String imgProfile;
-  String name;
-  String email;
+  User user;
 
-  UserInfo(this.imgProfile, this.name, this.email);
+  UserInfo(@required this.user);
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +26,7 @@ class UserInfo extends StatelessWidget {
         shape: BoxShape.circle,
         image: DecorationImage(
             fit: BoxFit.cover,
-            image: NetworkImage(imgProfile)
+            image: NetworkImage(this.user.photoUrl)
         ),
       ),
     );
@@ -40,7 +39,7 @@ class UserInfo extends StatelessWidget {
             bottom: 5.0,
           ),
           child: Text(
-            name,
+            this.user.name,
             style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,
@@ -51,7 +50,7 @@ class UserInfo extends StatelessWidget {
         ),
         Container(
           child: Text(
-            email,
+            this.user.email,
             style: TextStyle(
                 fontSize: 15.0,
                 color: Colors.white24,

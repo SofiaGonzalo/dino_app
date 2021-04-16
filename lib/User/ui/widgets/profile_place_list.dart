@@ -6,7 +6,7 @@ import 'package:dino_app/place/model/Place.dart';
 class ProfilePlaceList extends StatelessWidget{
 
   Place place1 = Place("Chicxulub crater", "Underneath the Yucatán Peninsula in Mexico", "Ecological atraction", "2,510,314");
-  String place1Img = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.thesilverink.com%2Fwp-content%2Fuploads%2F2015%2F04%2FChicxulub-crater.jpg&f=1&nofb=1";
+  String place1Img = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimagenescityexpress.scdn6.secure.raxcdn.com%2Fsites%2Fdefault%2Ffiles%2F2019-07%2Fchicxulub-crater-in-yucatan.jpg&f=1&nofb=1";
 
   Place place2 = Place("Samalayuca desert", "Chihuahua", "Ecological atraction", "6,542,321");
   String place2Img = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felsouvenir.com%2Fwp-content%2Fuploads%2F2018%2F09%2FDesierto-Samalayuca.Foto_.Twitter.1.jpg&f=1&nofb=1";
