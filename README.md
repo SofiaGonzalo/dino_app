@@ -1,21 +1,8 @@
-<<<<<<< HEAD
-# dino_app
+# Proyecto dino app
 
-A new Flutter application.
+Clase diseño de apps
 
-## Getting Started
+Video funcionamiento [[1]][ivgXtKyDMag]
+[ivgXtKyDMag]: https://youtu.be/ivgXtKyDMag
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# dino_app
-Aplicación de Flutter de dinosaurios para diseño de apps
->>>>>>> 9b6333877a774d487704016d8acfba107a4cf67e
+[![perrito](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.0eWGzqvLDE8Gc9O3kZ6rhQHaE8%26pid%3DApi&f=1 "perrito")](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.0eWGzqvLDE8Gc9O3kZ6rhQHaE8%26pid%3DApi&f=1 "perrito")
